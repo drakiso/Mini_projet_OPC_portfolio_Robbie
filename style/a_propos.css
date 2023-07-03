@@ -1,0 +1,57 @@
+/*Style of a_propos page */
+.a-propos-introduction {
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a-propos-introduction h1 {
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+
+.a-propos-introduction div {
+    padding: 50px 80px;
+    border-right: 1px #A5B4FC solid;
+    border-bottom: 1px #A5B4FC solid;
+    margin-bottom: 80px;
+}
+
+.a-propos-introduction p, .a-propos-introduction h2 {
+    margin-bottom: 30px;
+}
+
+.a-propos-introduction a {
+    text-align: center;
+    color: #FFF;
+    background: linear-gradient(#8E86B5, #ACAEED);
+    padding: 20px 30px;
+    border-radius: 50px;
+}
+
+.a-propos-introduction a:hover {
+    background: linear-gradient(#696484, #8788ba);
+}
+
+@media screen and (max-width: 996px) {
+    .a-propos-introduction {
+        max-width: 100%;
+    }
+
+    .a-propos-introduction h1 {
+        align-self: center;
+        margin-bottom: 10px;
+    }    
+
+    .a-propos-introduction div {
+        padding: 50px 0px;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    .a-propos-introduction p, .a-propos-introduction h2 {
+        text-align: center;
+    }
+}

@@ -1,0 +1,36 @@
+/*style of the fomular*/
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: $home_width_content;
+    margin: auto;
+
+    .form-name-email {
+        display: flex;
+        gap: 20px;
+
+        @media screen and (max-width: 996px) {
+            flex-direction: column;
+            gap: 0;
+        }
+
+        &__colonne {
+            display: flex;
+            flex-direction: column;
+            flex:1;
+            margin-bottom: 30px;
+        }
+
+    }
+
+    .btn__cta {
+        margin-top: 45px;
+        align-self: center;
+        color:inherit;
+    }
+
+    label {
+        margin-bottom: 10px;
+    }
+
+}

@@ -1,0 +1,50 @@
+/* style of the a-propos page */
+
+.a-propos-introduction {
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 996px) {
+        max-width: 100%;
+    }
+
+    div{
+        border-right: $border;
+        border-bottom: $border;
+        padding: 75px;
+        margin-top: 20px;
+        margin-bottom: 80px;
+
+        @media screen and (max-width: 996px) {
+            padding: 50px 0px;
+            border: none;
+            margin-bottom: 10px;
+        }
+    }
+
+    h2 {
+        color: $tertiary_color;
+        margin: 30px 0;
+
+        @media screen and (max-width: 996px) {
+            text-align: center;
+        }
+    }
+
+    ul {
+        padding-inline-start: 40px;
+    }
+
+    a {
+        align-self: center;
+        text-align: center;
+    }
+
+    P {
+        @media screen and (max-width: 996px) {
+            text-align: center;
+        }
+    }
+}

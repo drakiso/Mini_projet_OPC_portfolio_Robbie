@@ -1,0 +1,32 @@
+/* footer style*/
+
+footer {
+    @include style_footer_header;
+    @include color_background($secondary_background_color);
+
+    @media screen and (max-width: 996px) {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    a {
+        margin-left: 30px;
+        
+        @media screen and (max-width: 996px) {
+            margin: 15px 0;
+        }
+    }
+
+    a:hover {
+        opacity: $icone_opacity;
+    }
+
+    div {
+        @media screen and (max-width: 996px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

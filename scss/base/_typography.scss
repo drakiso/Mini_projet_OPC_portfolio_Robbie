@@ -1,0 +1,21 @@
+/*typography*/
+
+body {
+    @include global_typography;
+}
+
+h1 {
+    @include style_title($primary_color, 3.5rem);
+
+    @media screen and (max-width: 996px) {
+        font-size: 2em;
+    }
+}
+
+h2 {
+    @include style_title($primary_color, 1.5rem)
+}
+
+h3 {
+    @include style_title($primary_color, 1.1rem)
+}

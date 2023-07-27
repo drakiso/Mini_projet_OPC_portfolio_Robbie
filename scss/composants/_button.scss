@@ -1,0 +1,10 @@
+.btn__cta {
+    display: inline-block;
+    background: linear-gradient(#8E86B5, #ACAEED);
+    padding: 20px 40px;
+    border-radius: 50px;
+
+    &:hover {
+        background: linear-gradient(#696484, #8788ba);
+    }
+}

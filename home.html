@@ -4,8 +4,8 @@
     <head>
         <meta charset="utf-8">
         <title>ACCUEIL - Robbie Lens</title>
-        <link href="style/style.css" rel="stylesheet">
-        <link href="style/home.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="scripts/script.js" defer></script>
         <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
@@ -25,7 +25,7 @@
         </header>
 
         <main>
-            <section class="accueil-introduction">
+            <section class="home-introduction">
                 <div>
                     <h1>Robbie Lens Photographie</h1>
                     <p>Où <mark>professionalisme</mark> s'allie avec <mark>passion</mark>. 
@@ -33,12 +33,12 @@
                         avec la passion qui m'anime : capturer l'essence de 
                         chaque instant.
                     </p>
-                    <a href="#contact-me">UN PROJET ? ECRIVEZ-MOI</a>
+                    <a href="#contact" class="btn__cta">UN PROJET ? ECRIVEZ-MOI</a>
                 </div>
                 <img src="images/robbie-lens.png" alt="Photographie de Robbie Lens" title="Robbie Lens">
             </section>
 
-            <section class="accueil-photos">
+            <section class="home-photos">
                 <h2>Mon dernier projet</h2>
                 <div>
                     <img src="images/accueil/element-1.png" alt="Un paysage">
@@ -50,25 +50,25 @@
                     <img src="images/accueil/element-5.png" alt="Un paysage">
                     <img src="images/accueil/element-6.png" alt="Un paysage">
                 </div>
-                <a href="portfolio.html">VOIR MON PORTFOLIO</a>
+                <a href="portfolio.html" class="btn__cta">VOIR MON PORTFOLIO</a>
             </section>
 
-            <section class="reach-me-out">
-                <h2 id="contact-me">Parlons de votre projet</h2>
-                <form method="get" action="">
-                    <div class="name-email">
-                        <div>
+            <section id="contact" class="section-contact">
+                <h2>Parlons de votre projet</h2>
+                <form method="" action="">
+                    <div class="form-name-email">
+                        <div class="form-name-email__colonne">
                             <label for="name">nom</label>
                             <input type="text" name="name" id="name" required>
                         </div>
-                        <div>
+                        <div class="form-name-email__colonne">
                             <label for="mail">email</label>
                             <input type="email" name="mail" id="mail" required>
                         </div>
                     </div>
                     <label for="message">message</label>
                     <textarea name="message" id="message" required></textarea>
-                    <input type="submit" value="ENVOYER">
+                    <input type="submit" value="ENVOYER" class="btn__cta">
                 </form>
             </section>
         </main>
@@ -76,8 +76,8 @@
         <footer>
             <a href="home.html"><img src="images/logo.png" alt="logo de Robbie lens"></a>
             <div>
-                <a href="instagram.com" class="link-social-media"><img src="images/instagram.png" alt="logo de Instagram" title="Instagram"></a>
-                <a href="twitter.com" class="link-social-media"><img src="images/twitter.png" alt="logo de Twitter" title="Twitter"></a>
+                <a href="instagram.com" class="link_social_media"><img src="images/instagram.png" alt="logo de Instagram" title="Instagram"></a>
+                <a href="twitter.com" class="link_social_media"><img src="images/twitter.png" alt="logo de Twitter" title="Twitter"></a>
             </div>
         </footer>
     </body>

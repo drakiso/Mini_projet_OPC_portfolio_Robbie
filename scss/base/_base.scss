@@ -1,0 +1,13 @@
+/*base*/
+
+body {
+    @include color_background($primary_background_color)
+}
+
+section {
+    padding: 80px;
+
+    @media screen and (max-width: 996px) {
+        padding: 50px 20px;
+    }
+}

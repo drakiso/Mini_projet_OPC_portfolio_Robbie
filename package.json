@@ -1,0 +1,13 @@
+{
+  "name": "mini_projet_opc_portfolio_robbie",
+  "version": "1.0.0",
+  "description": "Site web de Robbie, pattern 7-1 sass",
+  "main": "index.js",
+  "scripts": {
+    "sass" :"sass --watch ./scss/main.scss:./css/style.css",
+    "prefix" : "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "author": "Israel",
+  "license": "ISC",
+  "browserslist" : "last 4 versions"
+}

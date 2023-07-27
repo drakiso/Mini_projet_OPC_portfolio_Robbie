@@ -1,0 +1,23 @@
+@mixin global_typography {
+    color: $tertiary_color;
+    font-family: $secondary_font;
+    font-size: 1.1rem;
+}
+
+@mixin color_background($color){
+    background-color: $color;
+}
+
+@mixin style_footer_header{
+    padding: $padding_header_and_footer;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+@mixin style_title($color, $size){
+    font-family: $primary_font;
+    font-size: $size;
+    color: $color;
+    font-weight: bolder;
+}
